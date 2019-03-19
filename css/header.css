@@ -21,6 +21,9 @@
 .top-header .header_columm{
     width: 33%;
 }
+.top-header .header_bottom .header_columm:first-child{
+    color: rgba(255, 255, 255, 0.5);
+}
 .top-header .header_columm:last-child{
     text-align: right;
 }
