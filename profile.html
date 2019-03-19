@@ -9,7 +9,7 @@
     <title>프로필</title>
 </head>
 <body>
-    <header class="top-header">
+    <header class="top-header top-header-transparent">
         <div class="header_top">
             <div class="header_columm">
                 <i class="fas fa-plane"></i>
@@ -38,21 +38,27 @@
     </header>
     <main class="profile">
         <header class="profile_header">
-            <img src="images/avatar.jpg" alt="프로필사진">
-            <h3 class="profile_header-title">한영관</h3>
+            <div class="prifile_header-container">
+                <img src="images/avatar.jpg" alt="프로필사진">
+                <h3 class="profile_header-title">한영관</h3>
+            </div>
         </header>
-        <input type="text" placeholder="hjk781@naver.com">
-        <div class="profile_action">
-            <span class="profile_action-circle">
-                <i class="fa fa-comment fa-2x"></i>
-            </span>
-            <span class="profile_action-title">나의 채팅방</span>
-        </div>
-        <div class="profile_action">
-            <span class="profile_action-circle">
-                <i class="fa fa-pencil fa-2x"></i>
-            </span>
-            <span class="profile_action-title">수정하기</span>
+        <div class="profile_container">
+            <input type="text" placeholder="hjk781@naver.com">
+            <div class="profile_actions">
+                <div class="profile_action">
+                    <span class="profile_action-circle">
+                        <i class="fa fa-comment fa-lg"></i>
+                    </span>
+                    <span class="profile_action-title">나의 채팅방</span>
+                </div>
+                <div class="profile_action">
+                    <span class="profile_action-circle">
+                        <i class="fas fa-pencil-alt fa-lg"></i>
+                    </span>
+                    <span class="profile_action-title">수정하기</span>
+                </div>
+            </div>
         </div>
     </main>
 </body>

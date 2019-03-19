@@ -5,6 +5,10 @@
     position: fixed;
     width: calc(100% - 20px);
     top: 0;
+    z-index: 2;
+}
+.top-header a{
+    color: #fff;
 }
 .top-header .header_top,
 .top-header .header_bottom{
